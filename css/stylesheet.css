@@ -1,0 +1,203 @@
+#about {
+    background: mintcream;
+    margin: none;
+    width: 100%;
+    height: auto;   
+}
+
+.parallax { 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/bg-14.jpg);
+    height: 100%; 
+    z-index: 0;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#particles {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.text-vertical-center h1 {
+    font-size: 4em;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    
+}
+.text-vertical-center h3 {
+    letter-spacing: 4px;
+    font-family: 'Dosis', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 1.5em;
+}
+
+.nav {
+    height: 40px;
+    width: auto;
+    position: absolute;
+    z-index: 100;
+}
+
+.navbar ul li {
+    list-style:none;
+    text-decoration:none;
+    display: inline-block;
+    padding: 10px;
+    padding-right:20px;
+}
+
+.navbar-collapse ul li a:hover{
+    background: transparent;
+    color: white;
+}
+
+.navbar-collapse ul li a:focus {
+    background: transparent;
+}
+
+.navbar-collapse ul li a { 
+    text-decoration: none;
+    color: lightgrey;
+    background: transparent;
+    font-family: 'Dosis', sans-serif;
+}
+
+.navbar-cover {
+    display:inline-block;
+    float: left;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    z-index: 50;
+    background: rgba(0, 0, 0, 0.3);   
+}
+
+.carousel-inner {
+    height: 390px;
+/*    background: linear-gradient(to bottom, gray, white);*/
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+#carousel {
+    padding-top: 10px;
+}
+
+.typing {
+    display: inline-block;
+    width: 100%;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 3s steps(50, end) alternate;
+    animation: type 6s steps(50, end) alternate;
+}
+
+.item {
+    margin-top:20px;
+}
+
+@keyframes type{
+    from { width: 0; }
+}
+
+@-webkit-keyframes type{
+    from { width: 0;  }
+}
+
+.about-me-title {
+    text-align: left;
+    padding-left: 75px;
+    font-family: 'Dosis', sans-serif;
+    display: inline-block;
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    z-index: 50;
+    background: transparent;
+    color: white;
+}
+
+.carousel-inner > .item {
+    position: relative;
+    display: none;
+    -webkit-transition: 2s ease-in-out left;
+    -moz-transition: 2s ease-in-out left;
+    -o-transition: 2s ease-in-out left;
+    transition: 2s ease-in-out left;
+}
+
+#myCarousel {
+    background: url(../img/sun_light_trees_forest_bush_snow_48016_3840x1200.jpg);
+    background-size: contain;
+}
+
+.description h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #404040;
+    padding-top: 10px;
+}
+
+.description p {
+    font-family: 'Arial', sans-serif;
+    font-size: 17px;
+    text-align: left;
+    color: #707070;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 200%;
+}
+
+.parallax2 { 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/snow-background-5.jpg);
+    height: 100%; 
+    z-index: -2;
+}
+
+.profile-cover {
+    display:inline-block;
+    float: left;
+    height: 613px;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    background: rgba(0, 0, 0, 0.3);
+    margin-top: -20px;
+}
+
+.service-item:hover {
+    transform:scale();
+}
+
+.experience {
+    text-align: left;
+}
